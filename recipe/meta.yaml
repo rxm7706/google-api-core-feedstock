@@ -1,5 +1,5 @@
 {% set name = "google-api-core" %}
-{% set version = "2.10.1" %}
+{% set version = "2.10.2" %}
 
 package:
   name: {{ name|lower }}-split
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e16c15a11789bc5a3457afb2818a3540a03f341e6e710d7f9bbf6cde2ef4a7c8
+  sha256: 10c06f7739fe57781f87523375e8e1a3a4674bf6392cd6131a3222182b971320
 
 build:
   number: 0
@@ -25,7 +25,7 @@ outputs:
       run:
         - python >=3.7
         - googleapis-common-protos >=1.56.2,<2.0dev
-        - protobuf >=3.20.1,<5.0.0dev
+        - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
         - google-auth >=1.25.0,<3.0dev
         - requests >=2.18.0,<3.0.0dev
     test:
