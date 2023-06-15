@@ -1,11 +1,14 @@
+About google-api-core-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-api-core-feedstock/blob/main/LICENSE.txt)
+
 About google-api-core
-=====================
+---------------------
 
 Home: https://github.com/googleapis/python-api-core
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-api-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Core Library for Google Client Libraries
 
@@ -32,6 +35,14 @@ Python == 2.7
 - Python 2.7 support will be removed on January 1, 2020.
 - protobuf does not support Visual C++ 2008, windows py27 package not available
 
+About google-api-core-grpc
+--------------------------
+
+Home: https://github.com/googleapis/python-api-core
+
+Package license: Apache-2.0
+
+Summary: Core Library for Google Client Libraries with grpc
 
 Current build status
 ====================
